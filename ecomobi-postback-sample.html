@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Your website</title><!--Ecomobi record traffic id-->
+    <script type="text/javascript" src="http://dev-go.ecotrackings.com/eco_tracking_all_order.js"></script>
+  </head>
+<body>
+
+</body> <!--Ecomobi record order-->
+
+<script type="text/javascript">
+
+var eco_token = "566ab5ad3d1e28f7a883081a744146f1";
+var eco_data = {
+    "offer_id" : "promo.highlandscoffee.com.vn",
+    "transaction_id" : "AFF-123-456-7821",
+    "transaction_time" : "2023-04-19 11:20:45",
+    "session_ip" : "192.168.132.15",
+    "traffic_id" : eco_cps.get_traffic_id(),
+    "products"   :   [{
+        "id"            :  "AFF-123-456-8753",
+        "sku"           :  "AFF-123-456-8753",
+        "name"          :  "AFF-123-456-8753",
+        "category_id"   :  "voucher",
+        "category_name" :  "voucher code",
+        "price"         :  18000,
+        "quantity"      :  1,
+        "commission"    :  18000,
+        "status_code"   :  1,
+        "link"          :  "http://127.0.0.1:5500/ecomobi-test/eco-ldp.html"
+    }]
+
+    //http://dev-go.ecotrackings.com/?token=MMTTOwxzvaBybkwzXdCDv&url=http%3A%2F%2F127.0.0.1%3A5500%2Fecomobi-test%2Feco-ldp.html
+};
+
+</script>
+
+<script type="text/javascript" src="http://dev-go.ecotrackings.com/eco_px.js"> </script>
+</html>
